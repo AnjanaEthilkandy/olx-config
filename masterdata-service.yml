@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/olxuserdb
+    url: jdbc:mysql://localhost:3306/olxmasterdatadb
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
@@ -16,4 +16,4 @@ spring:
       port: 27017
       database: xordb
   application:
-    name: login-service
+    name: masterdata-service
